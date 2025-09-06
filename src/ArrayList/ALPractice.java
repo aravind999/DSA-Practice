@@ -21,7 +21,11 @@ public class ALPractice {
         }
         System.out.println("The occurance of the target is :"+count);
        // System.out.println(Arrays.toString(array2));
-       ArrayList<String> al1 = new ArrayList<String>(Arrays.asList(array));
+       ArrayList<String> al1 = new ArrayList<String>(Arrays.asList(array));// we use generics in the angled brackets to avoid any run time errors and to also save memory. it increases typesafety
+        //The left side defines the variable type → ArrayList<String>.
+        //<> are called diamond brakets
+        //The right side (the new ArrayList<>) uses <> to tell the compiler:
+        //“Fill in the type from the left-hand side
         System.out.println(al1.size());
         //arrey list default size remains zero 0 right after we initialize its object however it turns to 10 once we add elements to its array
         // we cannot get capacity in arraylist the way we did in vector
