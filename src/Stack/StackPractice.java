@@ -19,6 +19,8 @@ Stack<String> books = new Stack<>();
 books.push("Red");// push and add are exactly same
 books.push("Black");
 books.push("white");
+books.push(null);
+books.push(null);
       // System.out.println(books.pop());// will take out the last element from the stack and will return in the result as well
         System.out.println(books);
     System.out.println(books.peek());//peek will basically deletes or takes away the element from the stack since its lifo it will take the last element
@@ -28,3 +30,24 @@ books.push("white");
     System.out.println(books.isEmpty());
 }
     }
+    //Q what is the default capacity ?
+//A default capacity of stack is 10
+//Q what is the initial capacity of stack
+//A initial capacity is 10
+//Q does it allow duplicates
+//A yes
+//Q does it allows null values
+//A yes
+//does it follows insertion order ?
+//A yes
+//does it maintain sorted order ?
+//A no
+// does it offer random acces ?
+// yes it does but we only should only use it as stack
+//Is it synchronised
+// yes it is
+// what is it good at ?
+// it is correct for all LIFO
+// where do we use this stack ?
+// undo ,redo , reccursion and all the opening and closing brackets we use stck
+
