@@ -76,7 +76,7 @@ public class SetPractice {
         //All the inserted values in the Set are stored as keys in Map and values are dummy since it impliments HashMap
         //Hashset default capacity is 16, defualt capacity is 0
         // Set has 3 implementations HS,LHS,TS.Hashset and LinkedHashset allows null values but TreeSet doesnt allow it
-
+        // there is no Synchronisation
     }
 
 
